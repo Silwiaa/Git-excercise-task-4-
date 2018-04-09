@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$fonts: "Open Sans", sans-serif;
+$base: grey;
+$fonts-color: #3e4444;
+$container-color: white;
+
+body {
+    background-color: $base;
+    font-family: $fonts;
+}
+
+.container {
+    background-color: $container-color;
+}
+
+h1,
+p {
+    color: $fonts-color;
+}
+
+small {
+    color: $base;
+}
