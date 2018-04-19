@@ -5,6 +5,11 @@ $base: grey;
 $fonts-color: #3e4444;
 $container-color: white;
 
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 body {
     background-color: $base;
     font-family: $fonts;
